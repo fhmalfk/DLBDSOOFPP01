@@ -1,7 +1,7 @@
 Install Python 3.13 and pip.
 For these steps please consolidate the linux, mac or windows manuals of python.
 https://docs.python.org/3/whatsnew/3.13.html
-######################################################################################################################################################
+######################################################################################
 Install mysql and import the database habittrackerapp.sql
 The Mysql Database was set to autoincrement the primaryKeys of all tables and ensure the uniqueness of them.
 
@@ -9,7 +9,7 @@ Setup the username and password and ensure read and write access to the imported
 
 Username:Hausmann
 Password:Test123
-######################################################################################################################################################
+###################################################################################
 Next install the mysql-connector-python with pip and the pytest, pytest-mock package:
 for example: 
 cd C:\Users\admin\AppData\Local\Programs\Python\Python313\Scripts
@@ -22,7 +22,7 @@ For example: C:\Downloads\Habittracker
 
 Store all the Test*.py files in a children repository of this folder. 
 For example C:\Downloads\Habittracker\test
-######################################################################################################################################################
+#####################################################################################
 The testsuite is split up in multiple testcases.
 
 To test the main and analyzation menu call: "pytest MenuTest.py -s" from the test directory over the cli. 
@@ -33,7 +33,7 @@ database is filled with the provided data. Some test cases are relying on the pr
 To test the analyzation functions please call "pytest analyzationTest.py -s" from the test directory over the cli.
 
 To test the scheduler please call "pytest schedulerTest.py -s" from the test directory over the cli.
-######################################################################################################################################################
+######################################################################################
 To run and interact with the application open the CMD/CLI and call the main.py file. 
 For example: C:\Downloads\Habittracker\main.py
 
